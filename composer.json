@@ -1,0 +1,31 @@
+{
+    "name": "lhellemons/time-objects",
+    "description": "A Date/DateTime library built on value objects",
+    "type": "library",
+    "version": "0.1",
+
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laurens Hellemons",
+            "email": "lhellemons@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.1",
+        "lhellemons/php-value-objects": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SolidPhp\\": "src/SolidPhp/",
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    }
+}
